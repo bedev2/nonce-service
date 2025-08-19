@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<Description>Logic and operations implementation for Roblox.Nonce.Service</Description>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<InternalsVisibleTo Include="Roblox.Nonce.Service" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.3.0" />
+		<PackageReference Include="Roblox.Caching" Version="1.2.4" />
+		<PackageReference Include="Roblox.EventLog" Version="1.2.4" />
+		<PackageReference Include="Roblox.MemcachedClient" Version="1.2.4" />
+		<PackageReference Include="Roblox.MssqlDatabases" Version="1.2.6" />
+		<PackageReference Include="Roblox.Operations" Version="1.2.4" />
+		<PackageReference Include="Roblox.Redis" Version="1.2.4" />
+	</ItemGroup>
+
+</Project>
